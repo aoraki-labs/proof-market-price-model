@@ -50,3 +50,8 @@ if __name__ == "__main__":
     current_hashrate = 1300
     total_hashrate_moving_average = 1100
     print(f"CASE 2: current_hashrate = 1300, total_hashrate_moving_average = 1100, the price is {get_price()}")
+
+    # CASE 1: current_hashrate = 1, total_hashrate_moving_average = 0, the price is 3.4965034965034967
+    # CASE 2: current_hashrate = 1100, total_hashrate_moving_average = 1200, the price is 3.8213601623998525
+    # CASE 2: current_hashrate = 1300, total_hashrate_moving_average = 1300, the price is 3.502689613315682
+    # CASE 2: current_hashrate = 1300, total_hashrate_moving_average = 1100, the price is 2.9642284890550084
